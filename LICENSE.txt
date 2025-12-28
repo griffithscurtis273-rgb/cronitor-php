@@ -1,4 +1,7 @@
-MIT License
+$apiKey = 'apiKey123';
+$apiVersion = '2020-10-01';
+$environment = 'staging';
+$cronitor = new Cronitor\Client($apiKey, $apiVersion, $environment);MIT License
 
 Copyright (c) 2021 Cronitor.io
 
